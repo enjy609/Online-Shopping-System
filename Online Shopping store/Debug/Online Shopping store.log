@@ -1,0 +1,26 @@
+﻿Build started 4/25/2020 8:35:36 PM.
+     1>Project "E:\Projects\project\Online Shopping store no\Online Shopping store\Online Shopping store.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\projects\project\online shopping store no\online shopping store\source.cpp(13): error C2146: syntax error : missing ';' before identifier 'your_shop'
+     1>e:\projects\project\online shopping store no\online shopping store\source.cpp(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\projects\project\online shopping store no\online shopping store\source.cpp(226): warning C4129: 'E' : unrecognized character escape sequence
+     1>e:\projects\project\online shopping store no\online shopping store\source.cpp(226): warning C4129: 'D' : unrecognized character escape sequence
+     1>e:\projects\project\online shopping store no\online shopping store\source.cpp(226): warning C4129: 'p' : unrecognized character escape sequence
+     1>e:\projects\project\online shopping store no\online shopping store\source.cpp(355): error C2086: 'std::ifstream infile' : redefinition
+                 e:\projects\project\online shopping store no\online shopping store\source.cpp(317) : see declaration of 'infile'
+     1>e:\projects\project\online shopping store no\online shopping store\source.cpp(357): error C2374: 'i' : redefinition; multiple initialization
+                 e:\projects\project\online shopping store no\online shopping store\source.cpp(319) : see declaration of 'i'
+     1>e:\projects\project\online shopping store no\online shopping store\source.cpp(358): error C2374: 'text' : redefinition; multiple initialization
+                 e:\projects\project\online shopping store no\online shopping store\source.cpp(318) : see declaration of 'text'
+     1>e:\projects\project\online shopping store no\online shopping store\source.cpp(361): error C2088: '>>' : illegal for class
+     1>e:\projects\project\online shopping store no\online shopping store\source.cpp(364): error C2088: '>>' : illegal for class
+     1>e:\projects\project\online shopping store no\online shopping store\source.cpp(367): error C2088: '>>' : illegal for class
+     1>e:\projects\project\online shopping store no\online shopping store\source.cpp(370): error C2088: '>>' : illegal for class
+     1>e:\projects\project\online shopping store no\online shopping store\source.cpp(373): error C2088: '>>' : illegal for class
+     1>Done Building Project "E:\Projects\project\Online Shopping store no\Online Shopping store\Online Shopping store.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.43
